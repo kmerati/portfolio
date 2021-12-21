@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 * {
 	padding: 0;
 	margin: 0;
@@ -156,7 +157,7 @@ p {
 	color: white;
 	font-weight: bold;
 	letter-spacing: -3px;
-	
+	font-family: 'Montserrat', Helvetica, sans-serif;
 	
 }
 
@@ -346,15 +347,18 @@ p {
 	padding-top: 130px;
 	
 	*/
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	color: #5f54f9;
+	font-size: 5rem;
 	
-	font-size: 7rem;
-	background-color: #f3ec78;
+	/*background-color: #f3ec78;
     background-image: linear-gradient(10deg, #5f54f9 30%, #4adede 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+	*/
 	
 	/* text-shadow: 1px 1px #342f90; */
 }
@@ -376,6 +380,7 @@ text-shadow: none;
 	position: relative;
 	color: white;
 	font-style: italic;
+	font-family: 'Montserrat', Helvetica, sans-serif;
 	
 	
 }
