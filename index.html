@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>Kevan's Portfolio Website</title>
 </head>
 
@@ -15,7 +16,7 @@
       <div class="nav-bar">
         <div class="brand">
           <a href="#hero">
-            <h1>Kevan Meratinia</h1>
+            <h1 class="logo">KM</h1>
 			
           </a>
 		 
@@ -52,12 +53,18 @@
   <section id="hero">
     <div class="hero container">
       <div class="center">
-        <h1>Kevan Meratinia</h1>
+       <div class="animate__animated animate__fadeInDown">
+	  <!-- <h1 class="logo"><span>K</span>evan <span>M</span>eratinia</h1> -->
+	  <h1 class="logo">Kevan Meratinia</h1>
+	   </div>
+		<div class="animate__animated animate__bounceInLeft">
 		<h2>Web Developer</h2>
-		
-		
+		</div>
+		<div class="animate__animated animate__fadeInUp">
       <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
+     </div>
+
+	 </div>
    
 	
 	 </div>
@@ -68,36 +75,43 @@
  
 
   <!-- Projects Section -->
+
   <section id="projects">
     <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent Projects</h1>
-      </div>
+     
+	  <div class="projects-header">
+		
+		<h1 class="section-title">Recent Projects</h1>
+		
+		</div>
+      
       <div class="all-projects">
-        <div class="project-item">
+		
+	   <div class="project-item">
           <div class="project-info">
             <h1>JavaScript Smoothie Ordering Form</h1>
             <h2></h2>
             <p></p>
-			<a href="https://kmerati.github.io/cis242finalproject/store/order.html" type="button" class="aboutbtn">View Website</a>
+			<a href="https://kmerati.github.io/cis242finalproject/store/order.html" type="button" class="projectsbtn">View Website</a>
 			
 			  
 			  
           </div>
           <div class="project-img">
-            <img src="images/smoothiewebsite.JPG" alt="img">
+            <img src="images/smoothiewebsite.jpg" alt="img">
           </div>
         </div>
+		
         <div class="project-item">
           <div class="project-info">
             <h1>HTML & CSS Personal Website</h1>
             <h2></h2>
             <p></p>
-			<a href="https://kmerati.github.io/cis245finalproject/kevanspersonalwebsite/home.html" type="button" class="aboutbtn" >View Website</a>
+			<a href="https://kmerati.github.io/cis245finalproject/kevanspersonalwebsite/home.html" type="button" class="projectsbtn" >View Website</a>
 			
           </div>
           <div class="project-img">
-            <img src="images/personalwebsitephoto.JPG" alt="img">
+            <img src="images/personalwebsitephoto.jpg" alt="img">
           </div>
         </div>
         <div class="project-item">
@@ -105,17 +119,31 @@
             <h1>Visual Marketing Strategy</h1>
             <h2></h2>
             <p>Visual marketing strategy for the Vashon Island Coffee Roasterie.</p>
-			<a href="files/vmstrategy.pdf" type="button" class="aboutbtn" >View PDF</a>
+			<a href="files/vmstrategy.pdf" type="button" class="projectsbtn" >View PDF</a>
 			
           </div>
           <div class="project-img">
             <img src="images/vmstrategypic.jpg" alt="img">
           </div>
         </div>
+		
+		<div class="project-item">
+          <div class="project-info">
+            <h1>Smooth Organics Style Guide</h1>
+            <h2></h2>
+            <p></p>
+			<a href="files/styleguide.pdf" type="button" class="projectsbtn" >View PDF</a>
+			</div>
+          
+			<div class="project-img">
+            <img src="images/styleguidepic.jpg" alt="img">
+		  </div>
+        </div>
 
       </div>
     </div>
   </section>
+  
   <!-- End Projects Section -->
 
   <!-- About Section -->
@@ -126,6 +154,7 @@
           <img src="images/kevanphoto.jpeg" alt="img">
         </div>
       </div>
+	 
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Front End Developer</h2>
@@ -133,11 +162,10 @@
           repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
           exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
           Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
-          reprehenderit libero enim!
+          reprehenderit libero enim!</p>
 		  <a href="files/resume.pdf" class="aboutbtn">Download Resume</a>
 		  
-		  </p>
-        
+		  
       </div>
     </div>
   </section>
@@ -145,9 +173,9 @@
 
   <!-- Contact Section -->
   <section id="contact">
-  <h1 class="section-title">Contact Info</h1>
+
     <div class="contact container-contact">
-	
+	 <h1 class="section-title">Contact Info</h1>
       <!-- <div>
         <h1 class="section-title">Contact Info</h1>
       </div> -->
@@ -156,7 +184,7 @@
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
           <div class="contact-info">
             <h1>Phone</h1>
-            <h2>+1 234 123 1234</h2>
+            <h2>541-255-6505</h2>
            
           </div>
         </div>
@@ -164,21 +192,35 @@
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
           <div class="contact-info">
             <h1>Email</h1>
-            <h2>kevan@kdesign.com</h2>
+            <h2>kbmeratinia@gmail.com</h2>
            
           </div>
         </div>
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
           <div class="contact-info">
-            <h1>Address</h1>
+            <h1>Location</h1>
             <h2>Seattle, WA</h2>
           </div>
         </div>
       </div>
     </div>
+	
+	
+	
+	
+	
+	
+	
   </section>
   <!-- End Contact Section -->
+  
+  
+  
+  
+  
+  
+  
 
   <!-- Footer -->
   <section id="footer">
@@ -189,17 +231,14 @@
       <h2>Web Developer</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+          <a href="https://www.linkedin.com/in/kevanmeratinia"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGc+PHBhdGggZD0iTTg2LDE0LjMzMzMzYy0zOS41ODA0MSwwIC03MS42NjY2NywzMi4wODYyNiAtNzEuNjY2NjcsNzEuNjY2NjdjMCwzOS41ODA0MSAzMi4wODYyNiw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS41ODA0MSwwIDcxLjY2NjY3LC0zMi4wODYyNiA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNTgwNDEgLTMyLjA4NjI2LC03MS42NjY2NyAtNzEuNjY2NjcsLTcxLjY2NjY3eiIgZmlsbD0iIzM0OThkYiI+PC9wYXRoPjxwYXRoIGQ9Ik01MC4xNjY2Nyw2OC4wODMzM2gxNC4zMzMzM3Y1My43NWgtMTQuMzMzMzN6TTU3LjI5MDMzLDYwLjkxNjY3aC0wLjA3ODgzYy00LjI3ODUsMCAtNy4wNDQ4MywtMy4xODkxNyAtNy4wNDQ4MywtNy4xNzAyNWMwLC00LjA2NzA4IDIuODUyMzMsLTcuMTYzMDggNy4yMDYwOCwtNy4xNjMwOGM0LjM2MDkyLDAgNy4wNDQ4MywzLjA5NiA3LjEyNzI1LDcuMTYzMDhjMCwzLjk4MTA4IC0yLjc2NjMzLDcuMTcwMjUgLTcuMjA5NjcsNy4xNzAyNXpNMTI1LjQxNjY3LDg3Ljc5MTY3YzAsLTEwLjg4NjE3IC04LjgyMjE3LC0xOS43MDgzMyAtMTkuNzA4MzMsLTE5LjcwODMzYy02LjY3MjE3LDAgLTEyLjU1OTU4LDMuMzI1MzMgLTE2LjEyNSw4LjM5OTMzdi04LjM5OTMzaC0xNC4zMzMzM3Y1My43NWgxNC4zMzMzM3YtMjguNjY2NjdjMCwtNS45Mzc1OCA0LjgxMjQyLC0xMC43NSAxMC43NSwtMTAuNzVjNS45Mzc1OCwwIDEwLjc1LDQuODEyNDIgMTAuNzUsMTAuNzV2MjguNjY2NjdoMTQuMzMzMzNjMCwwIDAsLTMyLjUzMzA4IDAsLTM0LjA0MTY3eiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/> </a>
+		  </div>
+        
+        <!--<div class="social-item">
+          <a href="#"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGc+PHBhdGggZD0iTTg2LDE0LjMzMzMzYy0zOS41ODA0MSwwIC03MS42NjY2NywzMi4wODYyNiAtNzEuNjY2NjcsNzEuNjY2NjdjMCwzOS41ODA0MSAzMi4wODYyNiw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS41ODA0MSwwIDcxLjY2NjY3LC0zMi4wODYyNiA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNTgwNDEgLTMyLjA4NjI2LC03MS42NjY2NyAtNzEuNjY2NjcsLTcxLjY2NjY3eiIgZmlsbD0iIzM0OThkYiI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjksNjEuMzQ2NjdjLTMuMTYwNSwxLjQwMTA4IC03LjE2MzA4LDIuNzE2MTcgLTEwLjc1LDMuMTUzMzNjMy42NDc4MywtMi4xNjQzMyA5LjQzNDkyLC02LjY3MjE3IDEwLjc1LC0xMC43NWMtMy40MDc3NSwyLjAwMzA4IC05LjU3MTA4LDQuMTQyMzMgLTEzLjU5MTU4LDQuOTE2MzNjLTMuMjEwNjcsLTMuNDA0MTcgLTcuNzkwMTcsLTQuOTE2MzMgLTEyLjg2NDE3LC00LjkxNjMzYy05Ljc0NjY3LDAgLTE2LjU0NDI1LDguMjU5NTggLTE2LjU0NDI1LDE3LjkxNjY3djcuMTY2NjdjLTE0LjMzMzMzLDAgLTI4LjMwODMzLC0xMC45MTg0MiAtMzcuMDA1MDgsLTIxLjVjLTEuNTMwMDgsMi41ODM1OCAtMi4zOTAwOCw1LjYwNzkyIC0yLjM5MDA4LDguODA0MjVjMCw2LjUxODA4IDUuOTg3NzUsMTMuMTMyOTIgMTAuNzI4NSwxNi4yNzkwOGMtMi44OTE3NSwtMC4wODk1OCAtOC4zNjcwOCwtMi4yOTY5MiAtMTAuNzUsLTMuNTgzMzNjMCwwLjA1NzMzIDAsMC4xMjkgMCwwLjIwNDI1YzAsOC40ODE3NSA1Ljk1MTkyLDE0LjI0MDE3IDE0LjAxOCwxNS44NDU1Yy0xLjQ3Mjc1LDAuNDA0OTIgLTMuMjY4LDEuODY2OTIgLTEwLjE3NjY3LDEuODY2OTJjMi4yNDMxNyw2LjkzMzc1IDEzLjUxOTkyLDEwLjU5OTUgMjEuMjQyLDEwLjc1Yy02LjA0MTUsNC42ODM0MiAtMTYuODEzLDcuMTY2NjcgLTI1LjA4MzMzLDcuMTY2NjdjLTEuNDI5NzUsMCAtMi4yMDM3NSwwLjA3ODgzIC0zLjU4MzMzLC0wLjA4MjQyYzcuODA0NSw0Ljk0NSAxOC43MDUsNy4yNDkwOCAyOC42NjY2Nyw3LjI0OTA4YzMyLjQ1NDI1LDAgNTAuMTY2NjcsLTI0Ljc4OTUgNTAuMTY2NjcsLTQ3LjkwOTE3YzAsLTAuNzU5NjcgLTAuMDI1MDgsLTMuMzAzODMgLTAuMDY0NSwtNC4wNDkxN2MzLjQ2ODY3LC0yLjQ0MzgzIDQuODczMzMsLTUuMDAyMzMgNy4yMzExNywtOC41MjgzMyIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/></a>
         </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-        </div>
+        -->
+		
       </div>
       <p>Copyright © 2021 Kevan Meratinia. All rights reserved</p>
     </div>
