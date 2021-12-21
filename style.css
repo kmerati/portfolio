@@ -173,12 +173,22 @@ p {
 }
 
 
+
+
 .brand h1 span {
 	
-	color: #0edaff;
+	color: white;
 	
 }
 
+
+.footertext {
+	
+	font-size: 3rem;
+	color: white;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
 
 
 
@@ -681,7 +691,8 @@ text-shadow: none;
 
 	
 	#hero h1 {
-		font-size: 7rem;
+		padding-top: 50px;
+		font-size: 6rem;
 	}
 	/* End Hero */
 
