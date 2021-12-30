@@ -569,7 +569,7 @@ text-shadow: none;
 }
 
 #certifications .item h1{
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: 300;
 	color: white;
 	margin-bottom: 10px;
@@ -577,11 +577,12 @@ text-shadow: none;
 	letter-spacing: 0.2rem;
 	text-align: center;
 	padding-bottom: 50px;
+	width: 100%;
 }
 	
 #certifications a{
 
-padding: 10px;
+padding: 10px 0px 10px;
 }	
 
 /* End Certifications */
