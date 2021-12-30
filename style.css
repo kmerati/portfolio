@@ -66,6 +66,7 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 	
+	
 }
 
 
@@ -543,12 +544,64 @@ text-shadow: none;
 }
 /* End About Section */
 
-/* contact Section */
-#contact .contact {
+/* Certifications Section */
+
+
+
+#certifications .certifications {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 100%;
+	
+}
+
+#certifications .item {
+	text-align:center;
+	padding: 100px 0px 100px 0px;
+	/*background-image: linear-gradient(-10deg, #5f54f9 30%, #4adede 100%); */
+	/*background-image: linear-gradient(-10deg, #5f54f9 30%, #4adede 100%); */
+	background-color: #29323c; 
+	/*background-image: linear-gradient(#4adede, #5f54f9, #fff); */
+	/*background-image: linear-gradient(-10deg, #5f54f9 20%, #29323c 60%); */
+	
+
+}
+
+#certifications .item h1{
+	font-size: 5rem;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	padding-bottom: 50px;
+}
+	
+#certifications a{
+
+padding: 10px;
+}	
+
+/* End Certifications */
+	
+
+
+/* contact Section */
+
+#contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#contact .contact {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 20px auto;
+	width: 100%;
+	
+	
 }
 #contact .contact-items {
 	/* max-width: 400px; */
@@ -559,8 +612,8 @@ text-shadow: none;
 	
 	text-align: center;
 	border-radius: 10px;
-	padding: 30px;
-	margin: 50px;
+	padding: 20px;
+	margin: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -580,6 +633,7 @@ text-shadow: none;
 	font-size: 2.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
+	
 }
 #contact .contact-info h2 {
 	font-size: 1.3rem;
@@ -617,7 +671,7 @@ text-shadow: none;
 }
 #footer .social-icon {
 	display: flex;
-	margin-bottom: 30px;
+	
 }
 #footer .social-item {
 	height: 50px;
