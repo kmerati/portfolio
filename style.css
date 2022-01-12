@@ -40,7 +40,6 @@ a {
 
 
 .center {
-	
 	padding-bottom: 400px;
 }
 
@@ -99,7 +98,6 @@ p {
 	display: inline-block;
 	padding: 10px 30px;
 	color: white;
-	/*background-image: linear-gradient(to left, #602db6, #342f90);*/
 	background: transparent;
 	border: 2px solid white;
 	font-size: 1.5rem;
@@ -178,7 +176,7 @@ p {
 
 .brand h1 span {
 	
-	color: white;
+	color: #29323c;
 	
 }
 
@@ -383,7 +381,7 @@ p {
 
 #hero h1 span {
 	
-color: #5f54f9;
+color: #29323c;
 
 text-shadow: none;
 }
@@ -550,10 +548,10 @@ text-shadow: none;
 
 #certifications .certifications {
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 1500px;
 	margin: 0 auto;
 	width: 100%;
-	
+
 }
 
 #certifications .item {
@@ -564,7 +562,6 @@ text-shadow: none;
 	background-color: #29323c; 
 	/*background-image: linear-gradient(#4adede, #5f54f9, #fff); */
 	/*background-image: linear-gradient(-10deg, #5f54f9 20%, #29323c 60%); */
-	
 
 }
 
@@ -580,10 +577,17 @@ text-shadow: none;
 	width: 100%;
 }
 	
-#certifications a{
 
-padding: 10px 0px 10px;
+#certifications .item img{
+
+padding: 15px;
+
 }	
+
+
+
+
+
 
 /* End Certifications */
 	
