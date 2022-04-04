@@ -579,10 +579,17 @@ text-shadow: none;
 	
 
 #certifications .item img{
-
-padding: 15px;
-
+	padding: 15px;
+	padding-bottom: 15px;
+	transition: 1s ease;
 }	
+
+#certifications .item img:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+}
 
 
 
